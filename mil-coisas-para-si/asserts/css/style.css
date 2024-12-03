@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: palevioletred;
+    box-shadow: 0px 3px 10px palevioletred;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+p{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo h1{
+    color: #fff;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 5px;
+
+}
+
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button{
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.login-button button a{
+   text-decoration: none;
+   color: #fff;
+   font-weight: 500;
+   font-size: 1.1rem;
+}
+
+.bloco{
+    width: 100%px;
+    height: 450px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.img-1{
+    background-color: oldlace;
+    width: 280px;
+    height: 80%;
+    margin: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+   color: black;
+}
+
+.img1{
+    width: 280px;
+    height: 70%; 
+    border-radius: 15px; 
+}
+.bloco h1 {
+    font-size: 15px;
+    margin: 2px;
+    color: black;
+}
+.bloco p{
+    color: black;
+}
+
+.adicionar{
+    height: 25px;
+    margin-top: 23px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
